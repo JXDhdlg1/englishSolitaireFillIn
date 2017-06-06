@@ -13,10 +13,6 @@ class EnglishWordModel extends Model
 {
     protected  $tableName = "english_word";
 
-    public function test() {
-        return "test";
-    }
-
     public function getWords() {
         $data = $this->where(array())->limit(1)->select();
         return $data;
