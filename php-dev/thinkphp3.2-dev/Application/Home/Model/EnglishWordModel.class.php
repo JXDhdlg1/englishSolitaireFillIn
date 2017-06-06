@@ -6,7 +6,7 @@
  * Date: 2017/6/6
  * Time: 17:45
  */
-
+namespace Home\Model;
 use Think\Model;
 
 class EnglishWordModel extends Model
