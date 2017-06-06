@@ -5,7 +5,7 @@ return array(
     "DB_DEPLOY_TYPE"=>1, //是否启用分布式
     //数据库配置
     'DB_RW_SEPARATE'=>false, //是否启用智能读写分离
-    'DB_TYPE'      =>  'mysql',     // 数据库类型
+    'DB_TYPE'      =>  'mysqli',     // 数据库类型
     'DB_HOST'      =>  '106.14.60.210',     // 服务器地址
     'DB_NAME'      =>  'english_game',     // 数据库名
     'DB_USER'      =>  'guest',     // 用户名

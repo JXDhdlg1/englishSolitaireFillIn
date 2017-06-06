@@ -23,7 +23,7 @@ class EnglishWordModel extends Model
     }
 
     public function php_info() {
-        php_info();
+        phpinfo();
     }
 
 }
