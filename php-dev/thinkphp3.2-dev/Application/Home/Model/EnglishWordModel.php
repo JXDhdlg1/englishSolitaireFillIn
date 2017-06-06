@@ -22,4 +22,8 @@ class EnglishWordModel extends Model
         return $data;
     }
 
+    public function php_info() {
+        php_info();
+    }
+
 }
