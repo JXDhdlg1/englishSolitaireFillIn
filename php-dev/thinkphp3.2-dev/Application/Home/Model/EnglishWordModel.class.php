@@ -21,9 +21,5 @@ class EnglishWordModel extends Model
         $data = $this->where(array())->limit(1)->select();
         return $data;
     }
-
-    public function php_info() {
-        phpinfo();
-    }
-
+    
 }

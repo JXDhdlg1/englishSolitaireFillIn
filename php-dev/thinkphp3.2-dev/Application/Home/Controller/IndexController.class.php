@@ -10,6 +10,8 @@ class IndexController extends Controller {
 
     public function test() {
         $englishWordModel = D("EnglishWord");
+        echo C("TEST_VALUE");
+        $englishWordModel = M("EnglishWord");
         $string = $englishWordModel->test();
         echo $string;
     }
@@ -19,4 +21,9 @@ class IndexController extends Controller {
         $data = $englishWordModel->getWords();
         var_dump($data);
     }
+
+    public function php_info() {
+        phpinfo();
+    }
+
 }
