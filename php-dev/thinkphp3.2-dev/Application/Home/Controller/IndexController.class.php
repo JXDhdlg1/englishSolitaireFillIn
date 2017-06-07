@@ -10,10 +10,12 @@ class IndexController extends BaseController {
 
     public function showWord() {
         $user = $this->getUser();
-        if(!empty($user)) {
-            echo $user['userName'];
+        if(empty($user)) {
+            $this->redirect("/Home/user/login",array(),3,"请先登录");
         }
-        $this->redirect("/Home/User/login",array(),3,"请先登录");
+        
+        $this->userName = $user['userName'];
+
     }
 
     /**

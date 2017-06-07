@@ -21,7 +21,7 @@ class BaseController extends Controller
         $userInfo = array();
         if($cookie) {
             $userModel = D("User");
-            $userInfo = $userModel->getUserByCookie();
+            $userInfo = $userModel->getUserByCookie($cookie);
         }
         return $userInfo;
     }
