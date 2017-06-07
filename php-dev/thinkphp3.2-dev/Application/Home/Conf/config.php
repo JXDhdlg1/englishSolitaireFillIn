@@ -17,4 +17,6 @@ return array(
     'APP_USE_REDIS' => false,//是否开启哨兵redis缓存 ；前提是Common / Config / config.php APP_USE_REDIS_SENTINEL 支持 才生效
     //测试
     'TEST_VALUE' => "qwerttyui123",
+    'USER_COOKIE_KEY' => "qwerttyui123",
+    'USER_LOGIN_COOKIE' => "user_login",
 );

@@ -13,9 +13,14 @@ class EnglishWordModel extends Model
 {
     protected  $tableName = "english_word";
 
-    public function getWords() {
-        $data = $this->where(array())->limit(1)->select();
-        return $data;
+    /**
+     * 根据id获取单词信息
+     * @param $id
+     * @return array
+     */
+    public function getWordById($id) {
+        $where['id'] = $id;
+        $data = $this->where($where)->select();
+        return $data ? $data[0] : array();
     }
-    
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <script type="text/javascript" src="http://img.qidian.com/js/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+<p>用户登录</p>
+<form method="post" id="subUser" action="/Home/User/loginIn">
+    <p><input type="text"  name="useName" id="userName"/></p>
+    <p><input type="password"  name="passWord" id="passWord"/></p>
+    <p><a class="button" id="submit" >登录</a></p>
+</form>
+
+</body>
+<script>
+    $("#submit").on("click",function() {
+        if(!$("#userName").val()) {
+            alert("请输入用户名");
+        }
+        var pass = $("#passWord").val();
+        if(!pass) {
+            alert("请输入密码");
+        }
+        $("#subUser").submit();
+    });
+</script>
+</html>
