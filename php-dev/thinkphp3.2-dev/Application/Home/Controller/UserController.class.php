@@ -76,6 +76,7 @@ class UserController extends Controller
             $this->error("保存失败，请稍后重试");
             exit;
         }
+        cookie(C("USER_LOGIN_COOKIE"),$cookie,3600*12);
         setcookie(C("USER_LOGIN_COOKIE"),$cookie,time()+3600*12); //保存缓存12小时
         $this->redirect('/Home/Index/showWord', array(), 3, '页面跳转中...');
     }

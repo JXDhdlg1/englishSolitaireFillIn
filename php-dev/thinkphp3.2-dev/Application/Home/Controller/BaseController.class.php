@@ -18,11 +18,15 @@ class BaseController extends Controller
      */
     protected function getUser() {
         $cookie = cookie(C("USER_LOGIN_COOKIE"));
+        echo $cookie;
         $userInfo = array();
         if($cookie) {
             $userModel = D("User");
             $userInfo = $userModel->getUserByCookie();
         }
+        cookie(C("USER_LOGIN_COOKIE"),"e358dab7962b107122fcc20dd69e5f28",3600*12);
+        echo cookie(C("USER_LOGIN_COOKIE"));
+        exit;
         return $userInfo;
     }
 
