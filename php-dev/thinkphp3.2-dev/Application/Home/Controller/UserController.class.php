@@ -9,9 +9,8 @@
 namespace Home\Controller;
 
 use Think\Controller;
-use think\response\Redirect;
 
-class User extends Controller
+class UserController extends Controller
 {
     /**
      * 显示登录页面
