@@ -66,7 +66,7 @@ class UserModel extends Model
             'email' => $email,
             'phone' => $phone
         );
-        $result = $this->save($data)->add();
+        $result = $this->data($data)->add();
         return $result;
     }
 
