@@ -13,12 +13,12 @@
     <p>确认密码<input type="password"  name="passWord" id="passWordSure"/></p>
     <p>邮  箱<input type="text"  name="email" id="email"/></p>
     <p>手  机<input type="text"  name="phone" id="phone"/></p>
-    <p><button type="button" id="submit" >提交</button></p>
+    <p><button type="button" id="register" >提交</button></p>
 </form>
 
 </body>
 <script>
-    $("#submit").on("click",function() {
+    $("#register").on("click",function() {
         if(!$("#userName").val()) {
             alert("请输入用户名");
             return ;
