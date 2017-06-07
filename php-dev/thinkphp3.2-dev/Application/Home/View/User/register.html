@@ -8,12 +8,12 @@
 <body>
 <p>注册用户</p>
 <form method="post" id="subUser" action="/Home/User/saveUser">
-    <p><input type="text"  name="useName" id="userName"/></p>
-    <p><input type="password"  name="passWord" id="passWord"/></p>
-    <p><input type="password"  name="passWord" id="passWordSure"/></p>
-    <p><input type="text"  name="email" id="email"/></p>
-    <p><input type="text"  name="phone" id="phone"/></p>
-    <p><a class="button" id="submit" >提交</a></p>
+    <p>用户名<input type="text"  name="userName" id="userName"/></p>
+    <p>密  码<input type="password"  name="passWord" id="passWord"/></p>
+    <p>确认密码<input type="password"  name="passWord" id="passWordSure"/></p>
+    <p>邮  箱<input type="text"  name="email" id="email"/></p>
+    <p>手  机<input type="text"  name="phone" id="phone"/></p>
+    <p><input class="button" id="submit" value="提交" /></p>
 </form>
 
 </body>
@@ -21,11 +21,13 @@
     $("#submit").on("click",function() {
         if(!$("#userName").val()) {
             alert("请输入用户名");
+            return ;
         }
         var pass = $("#passWord").val(),
                 pass2 = $("#passWordSure").val();
         if(!pass||!pass2||pass!=pass2) {
             alert("密码异常");
+            return;
         }
         $("#subUser").submit();
     });
