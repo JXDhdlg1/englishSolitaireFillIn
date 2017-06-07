@@ -13,6 +13,7 @@ class IndexController extends BaseController {
         if(!empty($user)) {
             echo $user['userName'];
         }
+        $this->redirect("/Home/User/login",array(),3,"请先登录");
     }
 
     /**
