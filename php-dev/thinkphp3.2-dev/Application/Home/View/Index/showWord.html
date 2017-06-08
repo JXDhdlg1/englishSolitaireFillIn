@@ -18,11 +18,11 @@
 </head>
 <body>
 <h1 class="test">补全单词</h1>
-<form method="post" action="/Home/Index/inputResult">
+<form method="post" action="/Home/Index/inputResult" style="align-content: center">
     <p>
         <?php for($i=0;$i<$wordLength;$i++) { ?>
         <?php if($i==$char1||$i==$char2) { ?>
-        <input type="text"  placeholder="" name="word<?=$i?>" size="1" required />
+        <input type="text"  placeholder="" name="word<?=$i?>" size="1" maxlength="1" required />
         <?php } else { ?>
         <span class="label label-info"><?=$word[$i]?></span>
         <input type="hidden"  placeholder="" name="word<?=$i?>" value="<?=$word[$i]?>" />
