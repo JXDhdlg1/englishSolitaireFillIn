@@ -22,7 +22,7 @@ class IndexController extends BaseController {
         $length = strlen($word);
         $char1 = intval(mt_rand(1,intval($length/2)));
         $char2 = intval(mt_rand(intval($length/2),$length-1));
-        $this->word = $length;
+        $this->word = $word;
         $this->char1 = $char1;
         $this->char2 = $char2;
         $this->wordLength = $length;
@@ -32,7 +32,7 @@ class IndexController extends BaseController {
     }
 
     public function test() {
-        $test_value = I("test_value");
+        $test_value = I("test_key");
         var_dump($test_value);
     }
 
