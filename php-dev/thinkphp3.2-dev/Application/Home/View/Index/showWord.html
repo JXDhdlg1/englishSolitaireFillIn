@@ -22,7 +22,7 @@
     <p>
         <?php for($i=0;$i<$wordLength;$i++) { ?>
         <?php if($i==$char1||$i==$char2) { ?>
-        <input type="text"  placeholder="" name="word<?=$i?>" size="1" maxlength="1" required />
+        <input type="text"  placeholder="" name="word<?=$i?>" size="3" maxlength="1" required />
         <?php } else { ?>
         <span class="label label-info"><?=$word[$i]?></span>
         <input type="hidden"  placeholder="" name="word<?=$i?>" value="<?=$word[$i]?>" />
