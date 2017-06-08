@@ -18,7 +18,7 @@ class UserController extends Controller
     public function login() {
         $cookie = cookie(C("USER_LOGIN_COOKIE"));
         if($cookie) {
-            $this->redirect('/Home/Index/showWord', array(), 3, '页面跳转中...');
+            $this->redirect('/Home/Index/showWord', array(), 1, '页面跳转中...');
         }
         $this->display();
     }
@@ -41,7 +41,7 @@ class UserController extends Controller
         }
         $cookie = $userInfo['cookie'];
         cookie(C("USER_LOGIN_COOKIE"),$cookie,3600*12);
-        $this->redirect('/Home/Index/showWord', array(), 5, '页面跳转中...');
+        $this->redirect('/Home/Index/showWord', array(), 1, '页面跳转中...');
     }
 
     /**
@@ -77,6 +77,6 @@ class UserController extends Controller
             exit;
         }
         cookie(C("USER_LOGIN_COOKIE"),$cookie,3600*12);
-        $this->redirect('/Home/Index/showWord', array(), 5, '页面跳转中...');
+        $this->redirect('/Home/Index/showWord', array(), 2, '页面跳转中...');
     }
 }

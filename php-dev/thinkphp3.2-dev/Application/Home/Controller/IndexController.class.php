@@ -14,7 +14,7 @@ class IndexController extends BaseController {
     public function showWord() {
         $user = $this->getUser();
         if(empty($user)) {
-            $this->redirect("/Home/user/login",array(),3,"请先登录");
+            $this->redirect("/Home/user/login",array(),1,"请先登录");
             exit;
         }
         $wordInfo = $this->getOneWordRandom();
@@ -32,6 +32,9 @@ class IndexController extends BaseController {
         $this->display("showWord");
     }
 
+    /**
+     * 接受用户提交的单词并判断
+     */
     public function inputResult() {
         $wordLen = I("wordlength");
         if(!$wordLen) {
@@ -57,6 +60,11 @@ class IndexController extends BaseController {
         var_dump($test_value);
     }
 
+    /**
+     * 检测这个单词是否存在
+     * @param $word
+     * @return mixed
+     */
     private function checkWord($word) {
         $englishWordModel = D("EnglishWord");
         $result = $englishWordModel->getWordInfoByWord($word);
