@@ -43,7 +43,7 @@ class IndexController extends BaseController {
         $word = "";
         for($i=0;$i<$wordLen;$i++) {
             $str = "word".$i;
-            $word .= I($str);
+            $word .= strtolower(I($str));
         }
         $result = $this->checkWord($word);
         if(empty($result)) {
