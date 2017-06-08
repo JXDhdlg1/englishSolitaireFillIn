@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>单词补全</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>补全单词</title>
+    <!-- Bootstrap -->
+    <link href="http://static.page.com/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+    </script>
 </head>
 <body>
-<p>补全单词</p>
-<p>
-    <?php foreach() { ?>
-    <?php } ?>
-</p>
-<p>
-    <a class="button">提示</a>
-</p>
-<p>
-    <a class="button">提交</a>
-</p>
+<h1 class="test">补全单词</h1>
+<?php foreach($i=0;$i<$wordLength;$i++) { ?>
+<?php if($i==$char1||$i==$char2) { ?>
+<input type="text"  placeholder="" name="input" required>
+<?php } else { ?>
+<span class="label label-info"><?=$word[$i]?></span>
+<?php } ?>
+<?php } ?>
+<p>test</p>
+<form id="test" method="post" action="/Home/Index/test">
+    <input name="test_key" value="1" />
+    <input name="test_key" value="2" />
+    <button type="submit" >submit</button>
+</form>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://static.page.com/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
