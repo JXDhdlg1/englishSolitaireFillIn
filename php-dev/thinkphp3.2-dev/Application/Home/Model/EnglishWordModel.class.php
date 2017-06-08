@@ -23,4 +23,16 @@ class EnglishWordModel extends Model
         $data = $this->where($where)->select();
         return $data ? $data[0] : array();
     }
+
+
+    /**
+     * 根据英语单词获取单词信息 - check是否存在改单词
+     * @param $id
+     * @return array
+     */
+    public function getWordInfoByWord($word) {
+        $where['word'] = $word;
+        $data = $this->where($where)->select();
+        return $data ? $data[0] : array();
+    }
 }

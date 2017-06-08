@@ -18,23 +18,29 @@
 </head>
 <body>
 <h1 class="test">补全单词</h1>
-<?=$word?>
-<?php for($i=0;$i<$wordLength;$i++) { ?>
-<?php if($i==$char1||$i==$char2) { ?>
-<input type="text"  placeholder="" name="input" required />
-<?php } else { ?>
-<span class="label label-info"><?=$word[$i]?></span>
-<?php } ?>
-<?php } ?>
-<p>test</p>
-<form id="test" method="post" action="/Home/Index/test">
-    <input name="test_key" value="1" />
-    <input name="test_key" value="2" />
-    <button type="submit" >submit</button>
+<form method="post" action="/Home/Index/inputResult">
+    <p>
+        <?php for($i=0;$i<$wordLength;$i++) { ?>
+        <?php if($i==$char1||$i==$char2) { ?>
+        <input type="text"  placeholder="" name="word<?=$i?>" size="1" required />
+        <?php } else { ?>
+        <span class="label label-info"><?=$word[$i]?></span>
+        <input type="hidden"  placeholder="" name="word<?=$i?>" value="<?=$word[$i]?>" />
+        <?php } ?>
+        <?php } ?>
+        <input type="hidden"  placeholder="" name="wordlength" value="<?=$wordLength?>" />
+    </p>
+    <p id="explain" style="display: none"><?=$explain?></p>
+    <p><button type="button" id="show_explain" class="btn btn-sm btn-info">提示</button> <button type="submit" class="btn btn-sm btn-success">提交</button></p>
 </form>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="http://static.page.com/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script>
+    $("#show_explain").on("click",function () {
+        $("#explain").show();
+    });
+</script>
 </body>
 </html>

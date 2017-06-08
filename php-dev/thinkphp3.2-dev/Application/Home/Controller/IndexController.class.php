@@ -15,6 +15,7 @@ class IndexController extends BaseController {
         $user = $this->getUser();
         if(empty($user)) {
             $this->redirect("/Home/user/login",array(),3,"请先登录");
+            exit;
         }
         $wordInfo = $this->getOneWordRandom();
         $word =$wordInfo['word'];
@@ -31,9 +32,35 @@ class IndexController extends BaseController {
         $this->display("showWord");
     }
 
+    public function inputResult() {
+        $wordLen = I("wordlength");
+        if(!$wordLen) {
+            $this->error("处理异常，继续答题");
+        }
+        $word = "";
+        for($i=0;$i<$wordLen;$i++) {
+            $str = "word".$i;
+            $word .= I($str);
+        }
+        $result = $this->checkWord($word);
+        if(empty($result)) {
+            $this->redirect("/Home/Index/showWord",array(),2,"单词未找到，请重新答题");
+            exit;
+        }
+        //答题正确 - 清楚正在答的此题记录，添加用户当前答题记录 - redis - 跳转到答题页面进行新一轮答题
+        $this->redirect("/Home/Index/showWord",array(),1,"继续答题");
+        exit;
+    }
+
     public function test() {
         $test_value = I("test_key");
         var_dump($test_value);
+    }
+
+    private function checkWord($word) {
+        $englishWordModel = D("EnglishWord");
+        $result = $englishWordModel->getWordInfoByWord($word);
+        return $result;
     }
 
     /**
