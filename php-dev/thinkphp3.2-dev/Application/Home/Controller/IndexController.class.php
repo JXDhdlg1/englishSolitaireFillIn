@@ -28,7 +28,7 @@ class IndexController extends BaseController {
         $this->wordLength = $length;
         $this->explain = $explain;
         $this->userName = $user['userName'];
-        $this->display();
+        $this->display("showWord");
     }
 
     public function test() {
