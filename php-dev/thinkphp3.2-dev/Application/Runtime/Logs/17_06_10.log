@@ -1,0 +1,30 @@
+[ 2017-06-10T00:29:09+08:00 ] 163.172.4.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-06-10T16:09:16+08:00 ] 146.185.223.113 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+

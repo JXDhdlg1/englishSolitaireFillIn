@@ -1,0 +1,856 @@
+[ 2017-06-07T14:18:32+08:00 ] 116.228.88.18 /Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-06-07T14:21:06+08:00 ] 116.228.88.18 /Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-06-07T14:21:11+08:00 ] 116.228.88.18 /Home/Index/showWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-06-07T14:21:14+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-07T14:22:06+08:00 ] 116.228.88.18 /index.php/Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-07T14:23:38+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-06-07T14:23:41+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-06-07T14:23:46+08:00 ] 116.228.88.18 /Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-06-07T14:24:59+08:00 ] 116.228.88.18 /Home/User/saveUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+
+[ 2017-06-07T14:25:30+08:00 ] 116.228.88.18 /Home/User/saveUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-06-07T14:26:14+08:00 ] 116.228.88.18 /Home/User/saveUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-06-07T14:27:55+08:00 ] 116.228.88.18 /Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-06-07T14:29:49+08:00 ] 116.228.88.18 /Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-06-07T14:30:55+08:00 ] 116.228.88.18 /Home/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-06-07T14:32:36+08:00 ] 116.228.88.18 /Home/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-06-07T14:32:53+08:00 ] 116.228.88.18 /Home/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-06-07T14:32:54+08:00 ] 116.228.88.18 /Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-06-07T14:33:05+08:00 ] 116.228.88.18 /Home/User/saveUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000495s ]
+SQL: SELECT * FROM `user` WHERE ( `userName` = 'jxd' )  [ RunTime:0.000188s ]
+ERR: Call to a member function add() on boolean
+
+[ 2017-06-07T14:33:28+08:00 ] 116.228.88.18 /Home/User/loginIn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-06-07T14:34:51+08:00 ] 116.228.88.18 /Home/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-06-07T14:34:55+08:00 ] 116.228.88.18 /Home/User/loginIn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000505s ]
+SQL: SELECT * FROM `user` WHERE ( `userName` = 'jxd' ) AND ( `password` = 'jxd' )  [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-06-07T14:34:59+08:00 ] 116.228.88.18 /Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2017-06-07T14:35:15+08:00 ] 116.228.88.18 /Home/User/saveUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000502s ]
+SQL: SELECT * FROM `user` WHERE ( `userName` = 'jxd' )  [ RunTime:0.000209s ]
+SQL: INSERT INTO `user` (`userName`,`password`,`cookie`,`email`,`phone`) VALUES ('jxd','jxd','e358dab7962b107122fcc20dd69e5f28','18817337394@163.com','13052381209') [ RunTime:0.002952s ]
+
+[ 2017-06-07T14:35:18+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-06-07T14:35:22+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-06-07T14:37:00+08:00 ] 116.228.88.18 /Home/User/loginIn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000580s ]
+SQL: SELECT * FROM `user` WHERE ( `userName` = 'jxd' ) AND ( `password` = 'jxd' )  [ RunTime:0.000209s ]
+
+[ 2017-06-07T14:37:03+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000493s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000203s ]
+
+[ 2017-06-07T14:37:06+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-06-07T14:37:09+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000499s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000196s ]
+
+[ 2017-06-07T14:37:12+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-06-07T14:37:15+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000529s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000217s ]
+
+[ 2017-06-07T14:37:18+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-06-07T14:37:21+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000485s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000203s ]
+
+[ 2017-06-07T14:37:25+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-06-07T14:37:28+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000504s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000198s ]
+
+[ 2017-06-07T14:37:31+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-06-07T14:37:34+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000545s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000199s ]
+
+[ 2017-06-07T14:37:37+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-06-07T14:37:40+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000476s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000207s ]
+
+[ 2017-06-07T14:37:43+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-06-07T14:37:46+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000564s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000193s ]
+
+[ 2017-06-07T14:37:49+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-06-07T14:37:52+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000524s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000193s ]
+
+[ 2017-06-07T14:37:55+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-06-07T14:37:58+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000501s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000198s ]
+
+[ 2017-06-07T14:38:01+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-06-07T14:38:04+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000486s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000197s ]
+
+[ 2017-06-07T14:38:07+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-06-07T14:38:10+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000517s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000232s ]
+
+[ 2017-06-07T14:38:13+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-06-07T14:38:16+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000559s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000214s ]
+
+[ 2017-06-07T14:38:19+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-06-07T14:38:22+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000515s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000205s ]
+
+[ 2017-06-07T14:38:26+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-06-07T14:38:29+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000454s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000224s ]
+
+[ 2017-06-07T14:38:32+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-06-07T14:38:35+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000485s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000193s ]
+
+[ 2017-06-07T14:38:38+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-06-07T14:38:41+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000501s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000189s ]
+
+[ 2017-06-07T14:38:44+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-06-07T14:38:47+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000480s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000195s ]
+
+[ 2017-06-07T14:38:50+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-06-07T14:38:53+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000481s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000193s ]
+
+[ 2017-06-07T14:38:56+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-06-07T14:38:59+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000517s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000208s ]
+
+[ 2017-06-07T14:39:02+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-06-07T14:39:05+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000521s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000196s ]
+
+[ 2017-06-07T14:39:08+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-06-07T14:39:11+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000523s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000206s ]
+
+[ 2017-06-07T14:39:14+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-06-07T14:39:17+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000443s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 25 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000214s ]
+
+[ 2017-06-07T14:39:25+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000652s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 25 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000192s ]
+
+[ 2017-06-07T14:39:30+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-06-07T14:39:33+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000496s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 25 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000191s ]
+
+[ 2017-06-07T14:40:47+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-06-07T14:40:53+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000565s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 25 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000198s ]
+
+[ 2017-06-07T14:40:54+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000470s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 25 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000223s ]
+
+[ 2017-06-07T14:40:55+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000454s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 25 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000202s ]
+
+[ 2017-06-07T14:40:58+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000506s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 25 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000196s ]
+
+[ 2017-06-07T14:43:54+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000529s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000192s ]
+
+[ 2017-06-07T14:43:57+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-06-07T14:44:00+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000495s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000238s ]
+
+[ 2017-06-07T14:44:03+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-06-07T14:44:06+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000529s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000202s ]
+
+[ 2017-06-07T14:44:09+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-06-07T14:44:12+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000447s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000185s ]
+
+[ 2017-06-07T14:44:16+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-06-07T14:44:19+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000584s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000204s ]
+
+[ 2017-06-07T14:44:22+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-06-07T14:44:25+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000492s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000221s ]
+
+[ 2017-06-07T14:44:28+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-06-07T14:44:31+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000545s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000248s ]
+
+[ 2017-06-07T14:44:34+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-06-07T14:44:37+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000468s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000214s ]
+
+[ 2017-06-07T14:44:40+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-06-07T14:44:45+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000461s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000194s ]
+
+[ 2017-06-07T14:44:48+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-06-07T14:44:51+08:00 ] 116.228.88.18 /index.php/Home/Index/showWord.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000503s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getUserByCookie(), called in /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Controller/BaseController.class.php on line 24 and defined /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: cookie /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/Application/Home/Model/UserModel.class.php 第 47 行.
+SQL: SELECT * FROM `user` WHERE ( `cookie` = null )  [ RunTime:0.000205s ]
+
+[ 2017-06-07T14:44:54+08:00 ] 116.228.88.18 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-06-07T14:44:57+08:00 ] 116.228.88.18 /index.php/Home/Index/loginIn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+ERR: 非法操作:loginin
+

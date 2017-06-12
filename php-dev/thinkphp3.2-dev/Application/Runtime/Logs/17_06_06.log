@@ -15,3 +15,343 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.000286s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
 
+[ 2017-06-06T17:54:59+08:00 ] 116.228.88.18 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-06-06T17:55:01+08:00 ] 116.228.88.18 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-06-06T17:55:10+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:01:28+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:01:29+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:01:30+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:01:30+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:01:31+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:01:31+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:02:43+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:02:43+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:02:43+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:02:44+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:02:45+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:02:45+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:02:45+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:02:45+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:03:37+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:03:38+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:03:38+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:03:39+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:03:39+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:04:12+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:04:19+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:04:19+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:04:19+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:08:07+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:08:08+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:08:08+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:08:08+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+ERR: 系统不支持:mysql
+
+[ 2017-06-06T18:11:31+08:00 ] 116.228.88.18 /Home/Index/php_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+ERR: 非法操作:php_info
+
+[ 2017-06-06T18:17:04+08:00 ] 116.228.88.18 /Home/Index/php_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+ERR: 非法操作:php_info
+
+[ 2017-06-06T18:17:06+08:00 ] 116.228.88.18 /Home/Index/php_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+ERR: 非法操作:php_info
+
+[ 2017-06-06T18:17:07+08:00 ] 116.228.88.18 /Home/Index/php_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+ERR: 非法操作:php_info
+
+[ 2017-06-06T18:17:08+08:00 ] 116.228.88.18 /Home/Index/php_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+ERR: 非法操作:php_info
+
+[ 2017-06-06T18:17:08+08:00 ] 116.228.88.18 /Home/Index/php_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+ERR: 非法操作:php_info
+
+[ 2017-06-06T18:17:08+08:00 ] 116.228.88.18 /Home/Index/php_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+ERR: 非法操作:php_info
+
+[ 2017-06-06T18:17:13+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `english_word` [ RunTime:0.000713s ]
+ERR: Think\Model:test方法不存在！
+
+[ 2017-06-06T18:17:49+08:00 ] 116.228.88.18 /Home/Index/showWords
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `english_word` [ RunTime:0.000523s ]
+ERR: Think\Model:getWords方法不存在！
+
+[ 2017-06-06T18:19:03+08:00 ] 116.228.88.18 /Home/Index/showWords
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `english_word` [ RunTime:0.000478s ]
+ERR: Think\Model:getWords方法不存在！
+
+[ 2017-06-06T18:19:07+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `english_word` [ RunTime:0.000495s ]
+ERR: Think\Model:test方法不存在！
+
+[ 2017-06-06T18:21:44+08:00 ] 116.228.88.18 /Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-06-06T18:21:48+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `english_word` [ RunTime:0.000562s ]
+ERR: Think\Model:test方法不存在！
+
+[ 2017-06-06T18:23:14+08:00 ] 116.228.88.18 /Home/Index/php_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-06-06T18:23:18+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `english_word` [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `english_word` [ RunTime:0.000272s ]
+ERR: Think\Model:test方法不存在！
+
+[ 2017-06-06T18:26:55+08:00 ] 116.228.88.18 /Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `english_word` [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-06-06T18:27:17+08:00 ] 116.228.88.18 /Home/Index/showWords
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `english_word` [ RunTime:0.000633s ]
+SQL: SELECT * FROM `english_word` LIMIT 1   [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-06-06T22:06:14+08:00 ] 101.224.110.66 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given /data/englishSolitaireFillIn/php-dev/thinkphp3.2-dev/ThinkPHP/Library/Think/Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
