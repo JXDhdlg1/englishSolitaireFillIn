@@ -55,11 +55,6 @@ class IndexController extends BaseController {
         exit;
     }
 
-    public function test() {
-        $test_value = I("test_key");
-        var_dump($test_value);
-    }
-
     /**
      * 检测这个单词是否存在
      * @param $word
